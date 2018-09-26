@@ -5,7 +5,8 @@ public class Test {
 		Espresso espresso=new Espresso();
 		Mocha mocha=new Mocha(espresso);
 		Millk millk=new Millk(mocha);
-		System.out.println(millk.getDescription());
-		System.out.println(millk.cost());
+		CupSIze cupSIze=new CupSIze(millk, Cup.big);
+		System.out.println(cupSIze.getDescription());
+		System.out.println(cupSIze.cost());
 	}
 }

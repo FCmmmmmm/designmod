@@ -8,7 +8,7 @@ public class Espresso extends Beverage {
 	
 	@Override
 	public double cost() {
-		return 9.9;//基本费用
+		return Price.Espresso.getPrice();//基本费用
 	}
 
 }

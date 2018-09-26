@@ -7,7 +7,7 @@ public class HouseBlend	extends Beverage {
 	}
 	@Override
 	public double cost() {
-		return 9.8;
+		return Price.HouseBlend.getPrice();
 	}
 	
 }
